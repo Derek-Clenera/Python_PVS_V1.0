@@ -1,0 +1,65 @@
+
+{
+    "default":
+    {
+      "model": "default",
+      "brand": "default",
+      "eta": 0.999,
+      "np": 0.2,  
+      "reliability": {
+        "weibull_2p_params": {
+            "failure_scale": 0,
+            "failure_shape": 0,
+            "repair_scale": 0,
+            "repair_shape": 0
+        } 
+    }
+    },
+
+    "delta_M190":
+    {
+        "model": "M190",
+        "brand": "Delta",
+        "eta": 0.980,
+        "np": 0.190,
+        "reliability": {
+            "weibull_2p_params": {
+                "failure_scale": 0,
+                "failure_shape": 0,
+                "repair_scale": 0,
+                "repair_shape": 0
+            } 
+        }
+    },
+
+    "sungrow_sg3150":
+    {
+        "model": "SG3150UD_MV_US",
+        "brand": "Sungrow",
+        "eta": 0.985,
+        "np": 3.15,
+        "reliability": {
+            "weibull_2p_params": {
+                "failure_scale": 0,
+                "failure_shape": 0,
+                "repair_scale": 0,
+                "repair_shape": 0
+            } 
+        }
+    },
+    "sungrow_sc3450":
+    {
+        "model": "SC3450UD_MV_US",
+        "brand": "Sungrow",
+        "eta": 0.985,
+        "np": 3.45,
+        "reliability": {
+            "weibull_2p_params": {
+                "failure_scale": 0,
+                "failure_shape": 0,
+                "repair_scale": 0,
+                "repair_shape": 0
+            } 
+        }
+    }
+}

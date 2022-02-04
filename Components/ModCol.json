@@ -1,0 +1,28 @@
+
+{
+    "default":
+    {
+        "eta": 0.9875,
+        "reliability": {
+            "weibull_2p_params": {
+                "failure_scale": 0,
+                "failure_shape": 0,
+                "repair_scale": 0,
+                "repair_shape": 0
+            } 
+        }
+    },
+
+    "Faraday":
+    {
+        "eta": 0.98,
+        "reliability": {
+            "weibull_2p_params": {
+                "failure_scale": 0,
+                "failure_shape": 0,
+                "repair_scale": 0,
+                "repair_shape": 0
+            } 
+        }
+    }
+}

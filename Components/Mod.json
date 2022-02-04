@@ -1,0 +1,60 @@
+
+{
+    "default":
+        {
+            "brand": "none",
+            "model": "none",
+            "life": 35,
+            "degradation": 0.0043,
+            "reliability": {
+                "weibull_2p_params": {
+                    "failure_scale": 0,
+                    "failure_shape": 0,
+                    "repair_scale": 0,
+                    "repair_shape": 0
+                } 
+            }
+        },
+
+    "risen_RSM110":
+        {
+            "brand": "Risen",
+            "model": "RSM110-8-550-BMDG",
+            "life": 35,
+            "degradation": 0.0045,
+            "reliability": {
+                "weibull_2p_params": {
+                    "failure_scale": 0,
+                    "failure_shape": 0,
+                    "repair_scale": 0,
+                    "repair_shape": 0
+                } 
+            }
+        },
+    "longi_lr4-72hbd":
+        {
+            "brand": "Longi",
+            "model": "LR4-72-HBD",
+            "life": 35,
+            "degradation": 0.005,
+            "reliability": {
+                "weibull_2p_params": {
+                    "failure_scale": 0,
+                    "failure_shape": 0,
+                    "repair_scale": 0,
+                    "repair_shape": 0
+                } 
+            }
+        },
+    "Faraday":
+        {
+            "life": 35,
+            "degradation": 0.00425
+        }, 
+    "Waaree_535":
+        {
+            "life": 35,
+            "degradation": 0.00425
+        }
+        
+}
